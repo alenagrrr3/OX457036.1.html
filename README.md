@@ -1,5 +1,4 @@
 
-
 <!-- PROJECT LOGO -->
 
 
@@ -122,6 +121,15 @@ To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter geno
 
 Scripts are ordered by protocol:
 
+* protocol-2
+* scripts/protocol2/dbscript.py
+
+this script will create a database from identified genes for Lumbricus Terrestris, Lumbricus Rubellus
+usage from bash: 
+
+python dbscript.py -i inputfile.xml -o dabase.txt
+ 
+
 
 ### Issues
 
@@ -138,22 +146,6 @@ you should change the pattern to match the line after LOCUS in bonafide.gb.</li>
 In this case you can use split -n ,
 or debug  the script randomSplit.pl step by step and look for where the results are reset to zero </li> 
 </ol>
-
-
-
-
-
-### Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-
-    Fork the Project
-    Create your Feature Branch (git checkout -b feature/AmazingFeature)
-    Commit your Changes (git commit -m 'Add some AmazingFeature')
-    Push to the Branch (git push origin feature/AmazingFeature)
-    Open a Pull Request
 
 
 
