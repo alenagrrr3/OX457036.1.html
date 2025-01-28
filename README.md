@@ -1,11 +1,7 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="">
-    <img src="">
-  </a>
+
 
 <h3 align="center">ab de novo genome annotation </h3>
 
@@ -57,13 +53,13 @@ File structure:
 
 <p> <strong> 'scripts' </strong>contains scripts used to run the workflow.Scripts are ordered by protocol.</p>
 <p> <strong> 'data'  </strong>section includes all the files that have been processed during the workflow.</p> 
-This includes things like alignment outputs, models, and UniProt protein collections.
-Data is ordered by protocol
+<p> This includes things like alignment outputs, models, and UniProt protein collections.
+Data is ordered by protocol </p>
 
-The <strong> 'data_input ' </strong> section includes reference genomic and transctiptomic data. 
+<p>  The <strong> 'data_input ' </strong> section includes reference genomic and transctiptomic data.  </p>
 
-<strong> 'results'</strong> contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
- webapp source code, proteomic analytics report
+<p> <strong> 'results'</strong> contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
+ webapp source code, proteomic analytics report  </p> 
     
 Tophat  is used for splice aware alignment.
 Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
@@ -71,9 +67,9 @@ GenomeThreader is used to align proteins
 
 <h4>  Protocols: </h4>
  
-  <strong>Protocol1 </strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq
-  <strong>Protocol2.1  </strong>-includes building model bases on proteins
-  <strong>Protocol2 </strong> -includes building genome database idenitfied gene strucures
+  <p> <strong>Protocol1 </strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq </p>
+  <p> <strong>Protocol2.1  </strong>-includes building model bases on proteins  </p>
+ <p>  <strong>Protocol2 </strong> -includes building genome database idenitfied gene strucures </p>
 
   
   
@@ -105,7 +101,8 @@ Positiv control
 The positive control in this experiment is C. elegans. The testing model is developed from proteins.  
  
  
- <div align="center">
+<!-- <div align="center"> 
+
   <a href="https://wclumterr.netlify.app/">
     <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/pc.png">
   </a>
