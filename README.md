@@ -31,10 +31,10 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#Positiv control">Positiv control</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#Scripts">Contact</a></li>
+    <li><a href="#Issues">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -97,7 +97,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 7. Python3
 
-## Positiv control
+### Positiv control
 
 The positive control in this experiment is C. elegans. The testing model is developed from proteins.  
  
@@ -107,7 +107,7 @@ The positive control in this experiment is C. elegans. The testing model is deve
     <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/pc.png">
   </a>
 
-##  Usage
+### Usage
 
 To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter genome coordiantes in the app:
  
@@ -118,6 +118,8 @@ To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter geno
 
 <a href="https://genomewclumterr.netlify.app/"> app </a>
 
+### Scripts
+### Issues
 
 ### Contributing
 
@@ -130,4 +132,5 @@ If you have a suggestion that would make this better, please fork the repo and c
     Commit your Changes (git commit -m 'Add some AmazingFeature')
     Push to the Branch (git push origin feature/AmazingFeature)
     Open a Pull Request
+
 
