@@ -1,4 +1,5 @@
 
+
 <!-- PROJECT LOGO -->
 
 
@@ -123,7 +124,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 
   
-### Controle 
+### Control 
 De positieve controle in dit experiment is *C. Elegans*. Het testmodel is ontwikkeld op basis van eiwitten.  
  
  
@@ -178,13 +179,15 @@ python get_uniprot.py
 ### Statistics
 
  
- | Left |  Center  | Right |
+ | chromosoom  |  L.Terrestris  | L.Rubellus |
 |:-----|:--------:|------:|
-| L0   | **bold** | $1600 |
-| L1   |  `code`  |   $12 |
-| L2   | _italic_ |    $1 |
-
-
+| **chr1**    | **bold** | $1600 |
+| chr1   |  4358  |   1665 |
+| chr2   | 3540 |    3178 |
+| chr3   | 3337 |    3045 |
+| chr4   | 3192 |    3238 |
+| chr5   | 2817 |    2748 |
+| chr6   | 3141 |    3118 |
 ### Issues
 
 <ol>
